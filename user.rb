@@ -1,5 +1,47 @@
 ### CREATE AT USER CLASS####
 
+class User
+	def initialize(email, birthdate, password)
+		@email = email
+		@birthdate = birthdate
+		@password = password
+	end
+
+	def name (name)
+		@name = name
+	end
+	def name
+		@name
+	end
+
+	def location(location)
+		@location = location
+	end
+	def location
+		@location
+	end
+
+	def stauts(status)
+		@status = status
+	end
+	def status
+		@status
+	end
+
+	def password_verify(password)
+		begin
+		puts "Please enter password"
+		password = gets.chomp
+
+		end until
+		if @password == password
+			puts "Welcome!"
+		else
+			"Please enter again, incorrect password."
+		end
+		end
+
+end
 	##Requirements:
 		#The user class should initialize with an email, password and birthdate
 

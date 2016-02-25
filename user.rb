@@ -17,7 +17,7 @@
 			#Call this method in initialize, so that the user has to confirm their password before their signup is complete
 
 
-		### BONUS ###
+		### BONUS / Extra Credit ###
 			#Setup a way for a user to store photos
 				#(in this case, photos will be represented by strings like this: "img.jpg")
 
